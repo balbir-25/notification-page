@@ -1,0 +1,143 @@
+@import url(./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "lus Jakarta Sans";
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    background-color: hsl(210, 60%, 98%);
+
+}
+
+/* =========================START MAIN AREA========================= */
+.site{
+    padding: 2.4rem 1.6rem;
+    max-width: 60rem;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+     color: hsl(219, 85%, 26%);
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.title-h1{
+    font-weight: 800;
+    font-size: 2.5rem;
+    color:  hsl(224, 21%, 14%);
+}
+
+.num{
+    background-color:  hsl(224, 21%, 14%);
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 3px 10px;
+    border-radius: 7px;
+}
+
+.title-a{
+    color: hsl(219, 12%, 42%);
+}
+
+.read, .unread{
+    display: flex;
+    gap: 30px;
+    margin: 20px auto;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.unread{
+    background-color: hsl(205, 33%, 90%);   
+}
+
+.circle{
+    border-radius: 50%;
+    background: hsl(1, 90%, 64%);
+    width: 0.8rem ;
+    height: 0.8rem;
+    display: inline-block;
+}
+
+.name, .post{
+    font-weight: 800;
+    font-size: 1.5rem;
+    color:  hsl(224, 21%, 14%);
+}
+
+.para{
+    color: hsl(219, 12%, 42%);
+}
+
+.like{
+   cursor: pointer;
+}
+
+.private{
+    margin-top: 20px;
+    border: 1px solid hsl(205, 33%, 90%);
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: hsl(219, 12%, 42%);
+}
+
+.private:hover{
+    background-color: hsl(219, 14%, 63%);
+}
+
+.time{
+    color: hsl(219, 12%, 42%);
+    margin-top: 10px;
+}
+
+/* =============================END MAIN AREA========================== */
+/* =============================START FOOTER  AREA=========================== */
+.foot {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 20px;
+    color: hsl(0, 100%, 67%);
+    background-color: black;
+    margin-top: 50px;
+  }
+  
+  .foot a {
+    text-decoration: none;
+    color: hsl(39, 100%, 56%);
+  }
+
+  .foot a:hover{
+    color: hsl(300, 69%, 71%);
+  }
+  /* =============================END FOOTER  AREA=========================== */
+  /* ============================START MEDIA QUERY============================ */
+  @media screen and (max-width: 586px){
+    body{
+        min-width: 586px;
+    }
+  }
+  /* ============================END MEDIA QUERY============================ */
